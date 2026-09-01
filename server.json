@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/tst-mcp",
+  "title": "Jurisprudência TST",
+  "description": "Search labour case law from the **TST**, the last word on employment matters in Brazil. Beyond rulin",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/tst-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_tst"
+    }
+  ]
+}
